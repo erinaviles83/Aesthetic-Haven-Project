@@ -1,0 +1,13 @@
+/* font-family: 'Ephesis', cursive;
+font-family: 'Quicksand', sans-serif; */
+
+p {
+    color: black; 
+    font-family: "Quicksand", sans-serif; 
+    
+}
+
+h1 {
+    color: black;
+    font-family: "Ephesis", cursive;
+}
