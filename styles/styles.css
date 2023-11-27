@@ -1,13 +1,42 @@
-/* font-family: 'Ephesis', cursive;
-font-family: 'Quicksand', sans-serif; */
+:root   {
+    --branding-color: #D9AB9F; 
+    --heading-font-family: "Ephesis", cursive;
+    --default-font-family: "Quicksand", sans-serif;  
+}
 
+
+
+body {
+    background: var(--branding-color);
+}
+h1 {
+    color: black;
+    font-family: var(--heading-font-family); 
+    font-size: 50px;
+    margin: 40px auto;
+}
 p {
     color: black; 
-    font-family: "Quicksand", sans-serif; 
+    font-family: var(--default-font-family); 
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 10px 20px; 
     
 }
 
-h1 {
-    color: black;
-    font-family: "Ephesis", cursive;
+.btn-branding {
+    background: rgb(249, 243, 242); 
+    border-radius: 10px;
+    color:  rgb(224, 143, 127); 
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 20px; 
+  
 }
+
+.about {
+    text-align: center;
+}
+
+
+
