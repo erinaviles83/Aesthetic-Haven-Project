@@ -10,13 +10,13 @@ body {
 h1 {
     color: black;
     font-family: var(--heading-font-family); 
-    font-size: 60px;
+    font-size: 50px;
     margin: 40px auto;
 }
 p {
     color: black; 
     font-family: var(--default-font-family); 
-    font-size: 20px;
+    font-size: 18px;
     margin: 20px auto;
     padding: 10px 20px; 
     
@@ -26,11 +26,14 @@ p {
     background: rgb(249, 243, 242); 
     border-radius: 10px;
     color:  rgb(224, 143, 127); 
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
     padding: 15px 20px; 
     display: flex; 
     justify-content: center;
+    max-width: 40%;
+    font-family: var(--heading-font-family);
+    
   
 }
 
@@ -42,7 +45,7 @@ p {
     max-width: 80%;
     height: auto;
     border-radius: 20px;
-    margin:100px 100px; 
+    margin: 90px 100px; 
     
 }
 
@@ -105,3 +108,4 @@ li, ul {
     max-height: 200px; 
     margin: 5px auto 30px auto;
 }
+
