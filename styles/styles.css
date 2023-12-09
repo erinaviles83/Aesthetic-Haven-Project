@@ -39,10 +39,10 @@ p {
 }
 
 .img-fluid {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 20px;
-    margin: 50px 50px; 
+    margin:100px 100px; 
     
 }
 
