@@ -73,3 +73,15 @@ p {
 li, ul {
     font-family: var(--default-font-family);
 }
+
+.photo-section img {
+    max-height: 60%;
+    border-radius: 50px;
+    margin-bottom: 0;
+  
+}
+
+.photo-section p {
+    font-size: 20px;
+   
+}
