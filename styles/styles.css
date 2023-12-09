@@ -16,7 +16,7 @@ h1 {
 p {
     color: black; 
     font-family: var(--default-font-family); 
-    font-size: 18px;
+    font-size: 16px;
     margin: 20px auto;
     padding: 10px 20px; 
     
@@ -30,9 +30,6 @@ li, ul {
 .about {
     text-align: center;
 }
-
-
-
 
 @media (max-width: 900px) { 
 h1 {
@@ -56,6 +53,10 @@ p {
     font-size: 30px;
 }
 
+.services-section li, ul {
+    font-size: 16px;
+}
+
 .img-fluid {
     max-width: 80%;
     height: auto;
@@ -72,7 +73,7 @@ p {
 }
 
 .photo-section p {
-    font-size: 20px;
+    font-size: 16px;
     padding: 5px;
 }
 
@@ -86,7 +87,7 @@ p {
 }
 
 .contact-me p {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 2px;
 }
 
