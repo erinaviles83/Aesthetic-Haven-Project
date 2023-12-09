@@ -75,14 +75,15 @@ li, ul {
 }
 
 .photo-section img {
-    max-height: 60%;
-    border-radius: 50px;
+    max-height: 50%;
+    border-radius:20px;
     margin-bottom: 0;
   
 }
 
 .photo-section p {
     font-size: 20px;
+    padding: 5px;
    
 }
 
