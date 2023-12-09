@@ -85,3 +85,22 @@ li, ul {
     font-size: 20px;
    
 }
+
+.contact-me {
+    text-align: center;
+}
+
+.contact-me h2 {
+    font-size: 35px;
+    margin-bottom: 2px;
+}
+
+.contact-me p {
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.contact-me img {
+    max-height: 200px; 
+    margin: 5px auto 30px auto;
+}
