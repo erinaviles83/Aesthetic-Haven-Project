@@ -31,8 +31,6 @@ p {
     padding: 15px 20px; 
     display: flex; 
     justify-content: center;
-    
-    
   
 }
 
@@ -41,19 +39,21 @@ p {
 }
 
 .img-fluid {
-    max-width: 300px;
-    max-height: 300px;
-    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 50px 50px; 
     
 }
 
-@media (max-width: 900px); 
+
+@media (max-width: 900px) { 
 h1 {
     font-size: 50px; 
 }
 p {
     font-size: 20px;
-}
+}}
 
 .navbar-brand {
     font-family: var(--heading-font-family);
@@ -70,4 +70,6 @@ p {
    
 }
 
-
+li, ul {
+    font-family: var(--default-font-family);
+}
