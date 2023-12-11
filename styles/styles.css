@@ -58,7 +58,7 @@ p {
 }
 
 .img-fluid {
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
     border-radius: 20px;
     margin: 90px 100px; 
@@ -70,11 +70,13 @@ p {
     max-height: 50%;
     border-radius:20px;
     margin-bottom: 0;
+    max-width: 80%;
 }
 
 .photo-section p {
     font-size: 16px;
-    padding: 5px;
+    padding: 10px;
+    margin-right: 40px;
 }
 
 .contact-me {
